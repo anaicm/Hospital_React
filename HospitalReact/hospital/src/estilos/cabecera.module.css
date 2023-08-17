@@ -1,0 +1,55 @@
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	  width: 100vw;
+    background-color: #b0d6e2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	  z-index: 999;
+  }
+  .logoContainer img {
+    height: 70px;
+	  padding-top:25px;
+
+     
+  }
+  .titleContainer h1 {
+    font-size: 30px;
+    margin: 0;
+    color: #ffffff;
+    font-family: lexend, Arial, Helvetica, sans-serif;
+  }
+  .cButton{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 10px;
+
+  }
+  .userBbutton{
+    background-color: #e6dbdb;
+    color: #281da2;
+    border: 1px solid #281da2;
+
+  }
+  .signupButton {
+   
+    background-color: #007bff;
+    color: #ffffff;
+    border: 1px solid #e6dbdb;
+   
+  }
+  .buttonContainer {
+    display: flex;
+    align-items: center;
+	  padding-right: 40px;
+  }
+  .userButton:hover{
+    background-color: #c2a6a6;
+    color: #ffffff;
+  }
+  .signupButton:hover {
+    background-color: #0062cc;
+}

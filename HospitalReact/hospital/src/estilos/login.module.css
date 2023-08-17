@@ -1,0 +1,65 @@
+.containerLogin {/*Estilo para centrar el formulario login de usuario*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+}
+.loginBox {/*Estilos para el fondo, borde, paddin y ancho de los formularios*/
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	padding: 40px;
+	width: 400px;
+}
+.formLogin {/*Estilo para el margen del inferior del formulario login*/
+	margin-bottom: 20px;
+	
+}
+.formLoginLabel {/*Estilos para el texto y tamaño los label del formulario login */
+	color: #555;
+	display: block;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.formLoginInput[type="submit"] {/*Estilos para los input del formulario de tipo submit, borde, fondo, cursor pointer, margen y texto*/
+	background-color: #b0d6e2;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 10px; 
+	width:100%;
+	margin-top:6px;	
+}
+.containerRegistro {/*Estilo para centrar el formulario nuevo registro de usuario*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 36px;
+	padding-top: 5%;
+
+}
+.foco{/*Estilos para el foco de los input de tipo "text" y "password"*/
+	background-color: #fff;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+.Estilosinput
+ {/*Estilos de fondo, color, margen, anchura y texto para los input de los tipos "text", "password", "tel" y email*/
+	background-color: #ADD3D7;
+	border: none;
+	border-radius: 4px;
+	color: black;
+	display: block;
+	font-size: 24px;
+	padding-right:2px;
+	padding-bottom:16px;
+	width: 397px;
+	margin-bottom: 10px;
+}
+.hoverInput{/*Estilo para cambiar el fondo de los tipo submit del formulario al pasar el raton*/
+	background-color: #c2a6a6;
+
+}

@@ -1,0 +1,27 @@
+.container {/*Estilos para */
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+}
+.columnas{/*Estilos para centrar las columnas que contienen las imagenes de la página principal*/
+	display:flex;
+	flex-direction: column;
+	/* Para centrar un div display: flex y esto: */
+	align-items: center;  
+	justify-content: center;
+ 	padding: 3px;
+}	
+.filas {/*Estilo para alinear horizontalmente las imagenes del inder*/
+	display:flex;
+	flex-direction: row;
+}
+.columnas img{/*Estilos para el tamaño, margen y borde de las imagenes que contienen la columnas*/
+	width: 600px;
+	height:240px;
+	margin:15px 6px 30px 6px;
+	border-radius: 10px
+}
+.columnas .imgFondo {/*Estilo para el tamaño de la imagen de fondo del index*/
+	width: 1300px;
+	height:600px;
+}

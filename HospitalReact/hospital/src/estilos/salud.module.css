@@ -1,0 +1,12 @@
+
+      .row {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      .tamTarjetaSalud{/*Estilos para el tamaño de las tarjetas de la página salud*/
+        width: 15rem; 
+        height: 12em;
+        margin:10px 20px 10px 50px; 
+        padding: 10px 10px 10px 10px;
+        cursor: pointer;
+    }

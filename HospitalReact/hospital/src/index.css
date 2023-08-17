@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {/*Estilos de fondo, color de texto, anchura y altura, alineación y padding para la barra de navegación*/
+	background-color: white;	
+    color: #281da2;
+    display: flex;
+    padding-bottom: 12px;
+    justify-content: space-between;
+    align-items: center;
+    width: 97vw;
+    padding-top: 25px;
+    margin-left: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+ul {/*Estilos para el margen y el padding, quitar el estilo de lista y alineacion de la etiqueta <ul> de la barra de navegación*/
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+li {/*Estilos para el margen derecho de las etiquetas <li> de la barra de navegación*/
+    margin-right: 20px;
+}
+a {/*Estilo para el color de texto y quitar la decoración de las etiquetas <a> de la barra de navegación*/
+    color: #482b97;
+    text-decoration: none;
+} 
+.main {/*Estilos de margen y ancho de la barra de navegación en todas las páginas de la aplicación*/
+    margin-top: 80px;
+    width: 97vw;
+}
+.fondo {/*Estilos para la imagen de fondo del index*/
+	background-image: url('./imagenes/pintura_fondo.png');
+	background-size: cover;
+	background-position: center;
+	width: auto;
+	height: auto;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+footer {/*Estilos de fondo, texto, padding, anchura y posición del pie de página*/
+	background-color: #b0d6e2;
+	color: #482b97;
+	/*padding: 20px;*/
+	text-align: center;
+	font-size: 10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 10%;
+}
+footer a {/*Estilos para quitar la decoración de la etiqueta <a> y color del letra*/
+	color: #482b97;
+	text-decoration: none;
+}
+footer a:hover {/*Estilos para poner la decoración y cambiar el color de letra de la etiqueta <a>*/
+	text-decoration: underline;
+	color: #c2a6a6;
+}
+

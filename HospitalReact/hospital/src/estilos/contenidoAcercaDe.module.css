@@ -1,0 +1,16 @@
+.contenidoIframe{/*Estilos margen, fondo, fuente, tamaño de letra, altura y anchura para el contenido del ifrme*/
+    margin: 10px 10px 10px 10px;
+    background-color: beige;
+    font-family: lexend, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: auto;
+    height: auto;
+}
+.titulo{/*Estilos de margen, fondo, borde, color de texto para el título del iframe*/
+    margin: 10px 10px 10px 10px;
+    background-color:#6ED8A5 ;
+    border: 2px solid #1F736A ;
+    color: beige;
+    font-family: lexend, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
